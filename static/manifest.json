@@ -1,0 +1,21 @@
+{
+  "name": "郭惟一的小站",
+  "short_name": "郭惟一的小站",
+  "theme_color": "#12affa",
+  "background_color": "#424242",
+  "display": "standalone",
+  "scope": "./",
+  "start_url": "./index.html",
+  "related_applications": [
+    {
+      "platform": "webapp",
+      "url": "https://blog.gwy.fun/manifest.json"
+    }
+  ],
+  "icons": [
+    {
+      "src": "https://www.gwy.fun/zhan/logo.jpg",
+      "type": "image/png"
+    }
+  ]
+}
