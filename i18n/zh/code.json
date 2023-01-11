@@ -17,7 +17,7 @@
     "description": "my name"
   },
   "homepage.hero.text": {
-    "message": "我的生活动态/想法/技术项目的存档点",
+    "message": "这里是我的生活动态/想法/技术项目的存档点",
     "description": "hero text"
   },
   "homepage.hero.look":{
@@ -43,10 +43,6 @@
   "hompage.hero.idea": {
     "message": "想法",
     "description": "Idea label"
-  },
-  "homepage.qqgroup": {
-    "message": "QQ 群：5478458",
-    "description": "qq group"
   },
   "自我介绍": {
     "message": "自我介绍",

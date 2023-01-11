@@ -1,20 +1,20 @@
 const path = require('path')
 
-const announcementBarContent = `🌟好耶 是新的博客网站`
+const announcementBarContent = `🌟好耶 2022年的回顾出来了惹`
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '郭惟一的博客',
+  title: '郭惟一',
   titleDelimiter: '-',
-  url: 'https://blog.gwy.fun/',
-  baseUrl: '/',
-  favicon: 'https://www.gwy.fun/zhan/1.ico',
+  url: 'https://www.gwy.fun',
+  baseUrl: '/blog',
+  favicon: 'https://cdn.gwy.fun/zhan/1.ico',
   organizationName: 'guoweiyi',
   projectName: 'blog',
   tagline: '郭惟一',
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
   themeConfig: {
-    image: 'https://www.gwy.fun/zhan/logo.jpg',
+    image: 'https://cdn.gwy.fun/zhan/logo.jpg',
     announcementBar: {
       id: 'announcementBar-3',
       content: announcementBarContent,
@@ -34,25 +34,11 @@ const config = {
       title: '郭惟一',
       logo: {
         alt: '郭惟一',
-        src: 'https://www.gwy.fun/zhan/logo.jpg',
-        srcDark: 'https://www.gwy.fun/zhan/logo.jpg',
+        src: 'https://cdn.gwy.fun/zhan/logo.jpg',
+        srcDark: 'https://cdn.gwy.fun/zhan/logo.jpg',
       },
       hideOnScroll: true,
       items: [
-        {
-          label: '博客/动态',
-          position: 'right',
-          items: [
-            {
-              label: '标签',
-              to: 'tags',
-            },
-            {
-              label: '笔记',
-              to: 'docs/skill/',
-            }
-          ],
-        },
         {
           label: '项目',
           position: 'right',
@@ -62,8 +48,18 @@ const config = {
           label: '友链',
           position: 'right',
           to: 'friends',
-        }
-      ],
+        },
+        {
+            label: '标签',
+            position: 'right',
+            to: 'tags',
+        },
+        {
+            label: '笔记',
+            position: 'right',
+            to: 'docs/skill/',
+        },
+        ],
     },
     footer: {
       style: 'dark',
@@ -112,13 +108,9 @@ const config = {
             label: '友链',
             position: 'right',
             to: 'friends',
-          }, {
-            label: '导航',
-            position: 'right',
-            to: 'website',
           },
           {
-            html: `<a href="https://docusaurus.io/zh-CN/" target="_blank"><img style="height:50px;margin-top:0.5rem" src="/img/buildwith.png" /><a/>`
+            html: `<a href="https://docusaurus.io/zh-CN/" target="_blank"><img style="height:50px;margin-top:0.5rem" src="https://www.gwy.fun/zhan/buildwith.png" /><a/>`
           },
         ],
         },
@@ -160,7 +152,7 @@ const config = {
       config: {}
     },
     matomo: {
-      matomoUrl: 'https://matomo.kuizuo.cn/',
+      matomoUrl: 'https://analyze.gwy.fun/',
       siteId: '1',
       phpLoader: 'matomo.php',
       jsLoader: 'matomo.js',
@@ -200,7 +192,7 @@ const config = {
           priority: 0.5,
         },
         gtag: {
-          trackingID: "G-S4SD5NXWXF",
+          trackingID: "G-75FRZ1VWTM",
           anonymizeIP: true,
         },
         // debug: true,
@@ -212,8 +204,6 @@ const config = {
     'docusaurus-plugin-matomo',
     'docusaurus-plugin-image-zoom',
     'docusaurus-plugin-sass',
-    path.resolve(__dirname, './src/plugin/plugin-baidu-tongji'),
-    path.resolve(__dirname, './src/plugin/plugin-baidu-push'),
     [
       path.resolve(__dirname, './src/plugin/plugin-content-blog'), {
         path: 'blog',
@@ -229,7 +219,7 @@ const config = {
         feedOptions: {
           type: 'all',
           title: '郭惟一',
-          copyright: `Copyright © 郭惟一 Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">晋公网安备 14010602060567号 | 晋ICP备19001447号-1</a></p>`,
+          copyright: `Copyright © 郭惟一 Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">晋公网安备 14010602060567号 | 晋ICP备19001447号-1</a></p><script>!function(p){"use strict";!function(t){var s=window,e=document,i=p,c="".concat("https:"===e.location.protocol?"https://":"http://","sdk.51.la/js-sdk-pro.min.js"),n=e.createElement("script"),r=e.getElementsByTagName("script")[0];n.type="text/javascript",n.setAttribute("charset","UTF-8"),n.async=!0,n.src=c,n.id="LA_COLLECT",i.d=n;var o=function(){s.LA.ids.push(i)};s.LA?s.LA.ids&&o():(s.LA=p,s.LA.ids=[],o()),r.parentNode.insertBefore(n,r)}()}({id:"JmbcAjeX5SSnvAbl",ck:"JmbcAjeX5SSnvAbl"});</script>`,
         },
       }
     ],
@@ -247,7 +237,12 @@ const config = {
           {
             tagName: 'link',
             rel: 'icon',
-            href: 'https://www.gwy.fun/zhan/logo.jpg',
+            href: 'https://cdn.gwy.fun/zhan/logo.jpg',
+          },
+          {
+            tagName: 'link',
+            rel: 'manifest',
+            href: '/manifest.json',
           },
           {
             tagName: 'meta',
@@ -267,7 +262,7 @@ const config = {
         htmlLang: 'en-GB',
       },
     },
-  },
+  }
 }
 
 module.exports = config

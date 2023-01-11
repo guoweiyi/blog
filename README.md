@@ -1,7 +1,6 @@
 <h2 align="center">
 郭惟一的个人博客
 </h2>
-# 此处代码数据不是最新哦
 
 ## 📊 Catalogue
 

@@ -6,11 +6,12 @@
     "email": "2168522719@qq.com",
     "name": "guoweiyi"
   },
+  "private":true,
   "repository": {
     "url": "https://github.com/guoweiyi/blog",
     "type": "git"
   },
-  "homepage": "https://wwww.gwy.fun",
+  "homepage": "https://www.gwy.fun",
   "license": "MIT",
   "scripts": {
     "docusaurus": "docusaurus",

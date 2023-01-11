@@ -27,9 +27,9 @@ function Hero() {
     <animated.div className={styles.hero}>
       <div className={styles.bloghome__intro}>
         <animated.div style={trails[0]} className={styles.hero_text}>
-          <Translate id="homepage.hero.greet">你好! 我是</Translate>
-          <span className={styles.intro__name}>
-            <Translate id="homepage.hero.name">郭惟一</Translate>
+          <Translate id="homepage.hero.greet" >你好! 我是</Translate>
+          <span className={styles.intro__name} >
+            <Translate id="homepage.hero.name" >郭惟一</Translate>
           </span>
         </animated.div>
         <animated.p style={trails[1]}>
@@ -70,6 +70,11 @@ function Hero() {
         <animated.div style={trails[3]}>
           <a className={styles.intro} href={'./about'}>
             <Translate id="hompage.hero.introduce">自我介绍</Translate>
+          </a>
+          <text>   </text>
+          <text>   </text>
+          <a className={styles.intro} href= "https://www.gwy.fun/zhutiye/index.html">
+            <Translate id="hompage.hero.introduce">视频主题页</Translate>
           </a>
         </animated.div>
       </div>
