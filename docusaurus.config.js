@@ -5,6 +5,7 @@ const announcementBarContent = `🌟好耶 2022年的回顾出来了惹`
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '郭惟一',
+  onBrokenLinks: 'warn',
   titleDelimiter: '-',
   url: 'https://www.gwy.fun',
   baseUrl: '/blog',
