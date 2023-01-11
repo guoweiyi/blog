@@ -3,6 +3,7 @@ on: push
 jobs:
   algolia:
     runs-on: ubuntu-latest
+    container: node:16.16.0 
     steps:
       - uses: actions/checkout@v2
       - name: Get the content of algolia.json as config
