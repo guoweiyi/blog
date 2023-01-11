@@ -1,5 +1,5 @@
 <h2 align="center">
-郭惟一的个人博客
+郭惟一的个人博客  Built with Docusaurus.
 </h2>
 
 ## 📊 Catalogue
@@ -28,19 +28,3 @@
 ├── tsconfig.json
 └── yarn.lock
 ```
-
-## 📥 Start
-
-```sh
-git clone https://github.com/kuizuo/blog.git
-cd blog
-yarn
-yarn start
-```
-
-Build
-
-```sh
-yarn run build
-```
-
