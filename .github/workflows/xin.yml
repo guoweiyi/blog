@@ -14,4 +14,3 @@ jobs:
         env:
           APPLICATION_ID: 5ZS6VKQ2HV
           API_KEY: 110a86d378c2682ea2f1ccfdceb9f0d3
-          CONFIG: ${{ steps.algolia_config.outputs.config }}
