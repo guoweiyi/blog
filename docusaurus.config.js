@@ -18,7 +18,7 @@ const config = {
     image: 'https://cdn.gwy.fun/zhan/logo.jpg',
     announcementBar: {
       id: "feature_release", // Any value that will identify this message.
-      content: `🌟好耶 <a href='/blog/2022record'>2022年的回顾</a>出来了惹`,
+      content: `🌟好耶 新文章出来了惹‍_(:з」∠)_ <a href='/blog/2022record'>2022年的回顾</a>`,
       backgroundColor: "#fafbfc", // Defaults to `#fff`.
       textColor: "#091E42", // Defaults to `#000`.
     },
