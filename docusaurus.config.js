@@ -16,8 +16,10 @@ const config = {
   themeConfig: {
     image: 'https://cdn.gwy.fun/zhan/logo.jpg',
     announcementBar: {
-      id: 'announcementBar-3',
-      content: announcementBarContent,
+      id: "feature_release", // Any value that will identify this message.
+      content: `🌟好耶 <a href='/blog/2022record'>2022年的回顾</a>出来了惹`,
+      backgroundColor: "#fafbfc", // Defaults to `#fff`.
+      textColor: "#091E42", // Defaults to `#000`.
     },
     metadata: [
       {

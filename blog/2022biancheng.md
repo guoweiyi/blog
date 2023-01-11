@@ -11,9 +11,9 @@ image: https://www.gwy.fun/tuchuang/image-20230110215114190.png
 
 ### 2022过完了捏 2023都过了好几天才有时间做这个回顾
 
-![image-20230110215046948](https://www.gwy.fun/tuchuang/image-20230110215114190.png)
-
 <!-- truncate -->
+
+![image-20230110215046948](https://www.gwy.fun/tuchuang/image-20230110215114190.png)
 
 ## 2022学到了什么                    
 
