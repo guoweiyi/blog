@@ -8,7 +8,22 @@ export const projects: Project[] = [
     tags: ['opensource', 'design', 'favorite'],
     type: 'web',
   },
-  ,
+  {
+    title: '学情分析与预测系统',
+    description: '基于Thinlphp搭建的学情分析系统',
+    preview: '/img/project/ana.jpg',
+    website: 'https://ana.gwy.fun/',
+    tags: ['favorite', 'product','large'],
+    type: 'web',
+  },
+  {
+    title: '文件共享系统',
+    description: '文件托管站',
+    preview: 'https://www.gwy.fun/%E5%9B%BEapi/pangwyfun.png',
+    website: 'https://pan.gwy.fun/',
+    tags: ['favorite', 'product','large'],
+    type: 'web',
+  },
   {
     title: '知识管理系统',
     description: '实现完整知识管理的多端聚合系统',
@@ -18,13 +33,13 @@ export const projects: Project[] = [
     type: 'web',
   },
   {
-    title: '学情分析与预测系统',
-    description: '基于Thinlphp搭建的学情分析系统',
-    preview: '/img/project/ana.jpg',
-    website: 'https://ana.gwy.fun/',
-    tags: ['favorite', 'product','large'],
+    title: '随机图片API',
+    description: '托管阿里FC函数',
+    preview: 'https://www.gwy.fun/%E5%9B%BEapi/tuapi2.png',
+    website: 'http://t-api.gwy.fun/',
+    tags: ['favorite'],
     type: 'web',
-  }
+  },
 ]
 
 export type Tag = {
