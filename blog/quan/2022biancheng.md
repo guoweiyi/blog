@@ -5,7 +5,7 @@ date: 2023-1-7
 authors: guoweiyi
 tags: [动态,想法]
 keywords: [动态]
-sticky: 1
+sticky: 3
 image: https://www.gwy.fun/tuchuang/image-20230110215114190.png
 ---
 

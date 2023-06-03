@@ -6,7 +6,7 @@ authors: guoweiyi
 tags: [动态,音乐存档]
 keywords: [动态]
 sticky: 2
-image: https://p1.music.126.net/dM_2lEqG7ZP7l0NjoApPFg==/109951168232666774.jpg
+image: https://www.gwy.fun/CFvue/chi.jpg
 ---
 
 
