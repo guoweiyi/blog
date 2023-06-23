@@ -1,7 +1,7 @@
 export const projects: Project[] = [
   {
     title: '郭惟一的小站',
-    description: '基于Docusaurus v2 静态网站生成器实现个人博客',
+    description: '基于DocusaurusV2静态网站生成器实现个人博客',
     preview: '/img/project/blog.jpg',
     website: 'https://cdn.gwy.fun',
     source: 'https://github.com/guoweiyi/blog',
@@ -9,7 +9,7 @@ export const projects: Project[] = [
     type: 'web',
   },
   {
-    title: '学情分析与预测系统',
+    title: '学情大数据分析与预测系统',
     description: '基于Thinlphp搭建的学情分析系统',
     preview: '/img/project/ana.jpg',
     website: 'https://ana.gwy.fun/',
@@ -17,18 +17,10 @@ export const projects: Project[] = [
     type: 'web',
   },
   {
-    title: '文件共享系统',
+    title: '郭惟一文件共享平台',
     description: '文件托管站',
     preview: 'https://www.gwy.fun/%E5%9B%BEapi/pangwyfun.png',
     website: 'https://pan.gwy.fun/',
-    tags: ['favorite', 'product','large'],
-    type: 'web',
-  },
-  {
-    title: '知识管理系统',
-    description: '实现完整知识管理的多端聚合系统',
-    preview: '/img/project/bj.jpg',
-    website: 'https://bj.gwy.fun/',
     tags: ['favorite', 'product','large'],
     type: 'web',
   },
@@ -38,6 +30,30 @@ export const projects: Project[] = [
     preview: 'https://www.gwy.fun/%E5%9B%BEapi/tuapi2.png',
     website: 'http://t-api.gwy.fun/',
     tags: ['favorite'],
+    type: 'web',
+  },
+  {
+    title: 'CAS中央认证系统',
+    description: '统一认证',
+    preview: 'https://www.gwy.fun/pancdn/casxin.png',
+    website: 'https://cas.gwy.fun/',
+    tags: ['product'],
+    type: 'web',
+  },
+  {
+    title: 'API文档管理系统',
+    description: '技术文档存档处',
+    preview: 'https://www.gwy.fun/pancdn/jish.png',
+    website: 'https://doc.gwy.fun/',
+    tags: ['product'],
+    type: 'web',
+  },
+  {
+    title: '知识管理系统(停止维护只做技术备份)',
+    description: '实现完整知识管理的多端聚合系统',
+    preview: '/img/project/bj.jpg',
+    website: 'https://bj.gwy.fun/',
+    tags: ['favorite', 'product','large'],
     type: 'web',
   },
 ]

@@ -18,7 +18,7 @@ const config = {
     image: 'https://cdn.gwy.fun/zhan/logo.jpg',
     announcementBar: {
       id: "feature_release", // Any value that will identify this message.
-      content: `🌟好耶 新文章出来了惹‍_(:з」∠)_ <a href='/blog/quan-4'>六一儿童节快乐</a>`,
+      content: `🌟好耶 新文章出来了惹‍_(:з」∠)_ <a href='/blog/tags/生物复习'>生物复习专题</a>`,
       backgroundColor: "#fafbfc", // Defaults to `#fff`.
       textColor: "#091E42", // Defaults to `#000`.
     },
@@ -43,7 +43,7 @@ const config = {
       hideOnScroll: true,
       items: [
         {
-          label: '项目',
+          label: '项目/应用',
           position: 'right',
           to: 'project',
         },
@@ -56,11 +56,6 @@ const config = {
             label: '标签',
             position: 'right',
             to: 'tags',
-        },
-        {
-            label: '笔记',
-            position: 'right',
-            to: 'docs/skill/',
         },
         ],
     },
@@ -75,7 +70,7 @@ const config = {
               to: 'tags',
             },
             {
-              label: '技术笔记',
+              label: '笔记',
               to: 'docs/skill',
             },
             {
@@ -111,9 +106,6 @@ const config = {
             label: '友链',
             position: 'right',
             to: 'friends',
-          },
-          {
-            html: `<a href="https://docusaurus.io/zh-CN/" target="_blank"><img style="height:50px;margin-top:0.5rem" src="https://www.gwy.fun/zhan/buildwith.png" /><a/>`
           },
         ],
         },

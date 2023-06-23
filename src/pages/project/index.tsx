@@ -17,11 +17,10 @@ const TITLE = translate({
 });
 const DESCRIPTION = translate({
   id: 'theme.project.description',
-  message: '以下项目均由本人开发/二次开发，均可自由使用，部分开源。',
+  message: '以下项目均由本人开发/二次开发，部分开源。',
 });
 
 const GITHUB_URL = 'https://github.com/guoweiyi';
-
 type ProjectState = {
   scrollTopPosition: number;
   focusedElementId: string | undefined;
@@ -55,7 +54,7 @@ function ShowcaseHeader() {
         target="_blank"
         rel="noreferrer">
         <Translate id="showcase.header.button">
-          前往 Github 克隆项目
+          前往查看Github项目
         </Translate>
       </a>
     </section>
