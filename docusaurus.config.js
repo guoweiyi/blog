@@ -1,7 +1,7 @@
 const path = require('path')
 
 const announcementBarContent = `🌟好耶 2022年的回顾出来了惹`
-
+/**content: `🌟好耶 新文章出来了惹‍_(:з」∠)_ <a href='/blog/tags/生物复习'>生物复习专题</a>`, */
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '郭惟一',
@@ -18,7 +18,7 @@ const config = {
     image: 'https://cdn.gwy.fun/zhan/logo.jpg',
     announcementBar: {
       id: "feature_release", // Any value that will identify this message.
-      content: `🌟好耶 新文章出来了惹‍_(:з」∠)_ <a href='/blog/tags/生物复习'>生物复习专题</a>`,
+      content: `🌟好耶 新的<a href='http://stats.gwy.fun/status/1'>外部服务检测站</a>搭好了呐`,
       backgroundColor: "#fafbfc", // Defaults to `#fff`.
       textColor: "#091E42", // Defaults to `#000`.
     },
@@ -46,6 +46,11 @@ const config = {
           label: '项目/应用',
           position: 'right',
           to: 'project',
+        },
+        {
+          label: '状态监控',
+          position: 'right',
+          to: 'http://stats.gwy.fun/status/1',
         },
         {
           label: '友链',
@@ -101,11 +106,11 @@ const config = {
           ],
         },
         {
-          title: '更多',
+          title: '其他',
           items: [{
-            label: '友链',
+            label: '网站外部检测',
             position: 'right',
-            to: 'friends',
+            to: 'http://stats.gwy.fun/status/1',
           },
         ],
         },
