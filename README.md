@@ -1,6 +1,31 @@
 <h2 align="center">
 郭惟一的个人博客  Built with Docusaurus.
 </h2>
+# 发布规则
+
+```
+## 预览
+yarn start 
+## 构建
+yarn build
+## 删除OSS blog路径文件
+## upd
+## CDN刷新一下网址
+```
+
+```
+https://www.gwy.fun/blog/
+https://www.gwy.fun/blog/about/
+https://www.gwy.fun/blog/tags
+https://www.gwy.fun/blog/project
+https://www.gwy.fun/blog/docs/skill
+https://www.gwy.fun/blog/friends
+目录
+https://www.gwy.fun/blog/
+https://www.gwy.fun/blog/assets/
+```
+
+
 
 ## 📊 Catalogue
 
