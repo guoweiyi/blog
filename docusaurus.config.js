@@ -18,7 +18,7 @@ const config = {
     image: 'https://cdn.gwy.fun/zhan/logo.jpg',
     announcementBar: {
       id: "feature_release", // Any value that will identify this message.
-      content: `🌟好耶 新的<a href='http://stats.gwy.fun/status/1'>外部服务检测站</a>搭好了呐`,
+      content: `🌟好耶 新文章出来了惹‍_(:з」∠)_ <a href='/blog/quan-10'>【洛天依AI】 一人行者 记录第一次翻调</a>`,
       backgroundColor: "#fafbfc", // Defaults to `#fff`.
       textColor: "#091E42", // Defaults to `#000`.
     },

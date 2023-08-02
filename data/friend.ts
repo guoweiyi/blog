@@ -1,9 +1,21 @@
 export const Friends: Friend[] = [  
   {
     title: '云游君',
-    description: '超喜欢的大佬',
+    description: '喜欢的大佬',
     website: 'https://www.yunyoujun.cn/',
     avatar: require('./avatar/yunyou.jpg'),
+  },
+  {
+    title: 'Zhaojinxi',
+    description: '超厉害的的信息竞赛大佬',
+    website: 'https://blog.zhaojinxi.top/',
+    avatar: require('./avatar/zhaojinxi.png'),
+  },
+  {
+    title: 'TomyJan',
+    description: '同好~',
+    website: 'https://www.tomys.top/',
+    avatar: require('./avatar/tom.png'),
   },
   {
     title: '峰华前端工程师',
