@@ -7,7 +7,7 @@ export const Friends: Friend[] = [
   },
   {
     title: 'Zhaojinxi',
-    description: '超厉害的的信息竞赛大佬',
+    description: '超厉害的的信竞大佬',
     website: 'https://blog.zhaojinxi.top/',
     avatar: require('./avatar/zhaojinxi.png'),
   },

@@ -5,7 +5,6 @@ date: 2023-5-25
 authors: guoweiyi
 tags: [动态,音乐存档]
 keywords: [动态]
-sticky: 2
 image: https://www.gwy.fun/CFvue/chi.jpg
 ---
 

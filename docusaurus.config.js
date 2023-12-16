@@ -18,7 +18,7 @@ const config = {
     image: 'https://cdn.gwy.fun/zhan/logo.jpg',
     announcementBar: {
       id: "feature_release", // Any value that will identify this message.
-      content: `🌟好耶 新文章出来了惹‍_(:з」∠)_ <a href='/blog/quan-10'>【洛天依AI】 一人行者 记录第一次翻调</a>`,
+      content: `🌟好耶 新文章出来了惹‍_(:з」∠)_ <a href='/blog/ZT-1'>零信任网络学习经历</a>`,
       backgroundColor: "#fafbfc", // Defaults to `#fff`.
       textColor: "#091E42", // Defaults to `#000`.
     },
@@ -46,11 +46,6 @@ const config = {
           label: '项目/应用',
           position: 'right',
           to: 'project',
-        },
-        {
-          label: '状态监控',
-          position: 'right',
-          to: 'http://stats.gwy.fun/status/1',
         },
         {
           label: '友链',
