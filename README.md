@@ -1,5 +1,5 @@
 <h2 align="center">
-郭惟一的个人博客  Built with Docusaurus.
+Guoweiyi blog  Built with Docusaurus.
 </h2>
 # 发布规则
 
