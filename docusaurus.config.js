@@ -4,7 +4,7 @@ const announcementBarContent = `🌟好耶 2022年的回顾出来了惹`
 /**content: `🌟好耶 新文章出来了惹‍_(:з」∠)_ <a href='/blog/tags/生物复习'>生物复习专题</a>`, */
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '郭惟一',
+  title: '郭惟一Guoweiyi',
   onBrokenLinks: 'warn',
   titleDelimiter: '-',
   url: 'https://www.gwy.fun',
@@ -18,7 +18,7 @@ const config = {
     image: 'https://cdn.gwy.fun/zhan/logo.jpg',
     announcementBar: {
       id: "feature_release", // Any value that will identify this message.
-      content: `🌟好耶 新文章出来了惹‍_(:з」∠)_ <a href='/blog/ZT-1'>零信任网络学习经历</a>`,
+      content: `🌟好耶 新文章出来了惹‍_(:з」∠)_ <a href='/blog/yourname'>你的名字重映</a>`,
       backgroundColor: "#fafbfc", // Defaults to `#fff`.
       textColor: "#091E42", // Defaults to `#000`.
     },
@@ -46,6 +46,11 @@ const config = {
           label: '项目/应用',
           position: 'right',
           to: 'project',
+        },
+        {
+          label: '状态',
+          position: 'right',
+          to: 'https://stats.gwy.fun/status/1',
         },
         {
           label: '友链',
@@ -110,7 +115,7 @@ const config = {
         ],
         },
       ],
-      copyright: `<p><a href="http://beian.miit.gov.cn/" >晋公网安备 14010602060567号 | 晋ICP备19001447号-1</a></p><p>Copyright © 2023 - 郭惟一 Built with Docusaurus.</p>`,
+      copyright: `<p><a href="http://beian.miit.gov.cn/" >晋公网安备 14010602060567号 | 晋ICP备19001447号-1</a></p><p>Copyright © 2024 - 郭惟一 Built with Docusaurus.</p>`,
     },
     prism: {
       theme: require('prism-react-renderer/themes/vsLight'),
@@ -165,7 +170,6 @@ const config = {
     },
     socials: {
       github: 'https://github.com/guoweiyi',
-      qq: 'https://wpa.qq.com/msgrd?v=3&amp;uin=2168522719&amp;site=qq',
       cloudmusic: 'https://music.163.com/#/user/home?id=1542829210',
     },
   },
