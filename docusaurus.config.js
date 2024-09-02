@@ -48,11 +48,6 @@ const config = {
           to: 'project',
         },
         {
-          label: '状态',
-          position: 'right',
-          to: 'https://stats.gwy.fun/status/1',
-        },
-        {
           label: '友链',
           position: 'right',
           to: 'friends',

@@ -42,8 +42,8 @@ function Hero() {
             id="homepage.hero.look"
             values={{
               note: (
-                <Link to="/docs/skill">
-                  <Translate id="hompage.hero.note">笔记</Translate>
+                <Link to="/friends">
+                  <Translate id="hompage.hero.note">朋友们</Translate>
                 </Link>
               ),
               project: (
