@@ -55,4 +55,4 @@ image: https://www.gwy.fun/tuchuang/image-20230110215114190.png
 | 负载均衡SLB            | 67      |                      |         |
 | 内网穿透NATFRP         | 160     |                      |         |
 ## 2022年项目统计
-![image-20230110215046948](https://cdn.gwy.fun/tuchuang/image-20230110215046948.png)
+![image-20230110215046948](https://www.gwy.fun/tuchuang/image-20230110215046948.png)

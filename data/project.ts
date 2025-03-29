@@ -3,7 +3,7 @@ export const projects: Project[] = [
     title: '郭惟一的小站',
     description: '基于DocusaurusV2静态网站生成器实现个人博客',
     preview: '/img/project/blog.jpg',
-    website: 'https://cdn.gwy.fun',
+    website: 'https://www.gwy.fun',
     source: 'https://github.com/guoweiyi/blog',
     tags: ['opensource', 'design', 'favorite'],
     type: 'web',

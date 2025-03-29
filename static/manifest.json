@@ -9,12 +9,12 @@
   "related_applications": [
     {
       "platform": "webapp",
-      "url": "https://cdn.gwy.fun/manifest.json"
+      "url": "https://www.gwy.fun/manifest.json"
     }
   ],
   "icons": [
     {
-      "src": "https://cdn.gwy.fun/zhan/logo.jpg",
+      "src": "https://www.gwy.fun/zhan/logo.jpg",
       "type": "image/png"
     }
   ]

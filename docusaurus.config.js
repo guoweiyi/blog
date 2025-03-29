@@ -1,7 +1,6 @@
 const path = require('path')
 
-const announcementBarContent = `🌟好耶 2022年的回顾出来了惹`
-/**content: `🌟好耶 新文章出来了惹‍_(:з」∠)_ <a href='/blog/tags/生物复习'>生物复习专题</a>`, */
+const announcementBarContent = ``
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '郭惟一Guoweiyi',
@@ -9,13 +8,13 @@ const config = {
   titleDelimiter: '-',
   url: 'https://www.gwy.fun',
   baseUrl: '/blog',
-  favicon: 'https://cdn.gwy.fun/zhan/1.ico',
+  favicon: 'https://www.gwy.fun/zhan/1.ico',
   organizationName: 'guoweiyi',
   projectName: 'blog',
   tagline: '郭惟一',
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
   themeConfig: {
-    image: 'https://cdn.gwy.fun/zhan/logo.jpg',
+    image: 'https://www.gwy.fun/zhan/logo.jpg',
     announcementBar: {
       id: "feature_release", // Any value that will identify this message.
       content: `🌟好耶 新文章出来了惹‍_(:з」∠)_ <a href='/blog/yourname'>你的名字重映</a>`,
@@ -37,8 +36,8 @@ const config = {
       title: '郭惟一',
       logo: {
         alt: '郭惟一',
-        src: 'https://cdn.gwy.fun/zhan/logo.jpg',
-        srcDark: 'https://cdn.gwy.fun/zhan/logo.jpg',
+        src: 'https://www.gwy.fun/zhan/logo.jpg',
+        srcDark: 'https://www.gwy.fun/zhan/logo.jpg',
       },
       hideOnScroll: true,
       items: [
@@ -231,7 +230,7 @@ const config = {
           {
             tagName: 'link',
             rel: 'icon',
-            href: 'https://cdn.gwy.fun/zhan/logo.jpg',
+            href: 'https://www.gwy.fun/zhan/logo.jpg',
           },
           {
             tagName: 'link',
