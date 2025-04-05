@@ -2,7 +2,7 @@ export const Friends: Friend[] = [
   {
     title: 'Ethan',
     description: 'Don’t stay awake for too long.',
-    website: 'https://hanlife02.com.cn/',
+    website: 'https://hanlife02.com',
     avatar: require('./avatar/ear.jpg'),
   },
   {
@@ -13,7 +13,7 @@ export const Friends: Friend[] = [
   },
   {
     title: 'Zhaojinxi',
-    description: '超厉害的的信竞大佬',
+    description: '厉害的的信竞大佬',
     website: 'https://blog.zhaojinxi.top/',
     avatar: require('./avatar/zhaojinxi.png'),
   },

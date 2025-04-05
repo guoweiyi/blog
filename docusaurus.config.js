@@ -3,7 +3,7 @@ const path = require('path')
 const announcementBarContent = ``
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '郭惟一Guoweiyi',
+  title: 'Guoweiyi',
   onBrokenLinks: 'warn',
   titleDelimiter: '-',
   url: 'https://www.gwy.fun',
@@ -11,7 +11,7 @@ const config = {
   favicon: 'https://www.gwy.fun/zhan/1.ico',
   organizationName: 'guoweiyi',
   projectName: 'blog',
-  tagline: '郭惟一',
+  tagline: 'Guoweiyi',
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
   themeConfig: {
     image: 'https://www.gwy.fun/zhan/logo.jpg',
@@ -24,7 +24,7 @@ const config = {
     metadata: [
       {
         name: 'keywords',
-        content:'郭惟一'
+        content:'Guoweiyi'
       },
     ],
     docs: {
@@ -33,9 +33,9 @@ const config = {
       }
     },
     navbar: {
-      title: '郭惟一',
+      title: 'Guoweiyi',
       logo: {
-        alt: '郭惟一',
+        alt: 'Guoweiyi',
         src: 'https://www.gwy.fun/zhan/logo.jpg',
         srcDark: 'https://www.gwy.fun/zhan/logo.jpg',
       },
@@ -109,7 +109,7 @@ const config = {
         ],
         },
       ],
-      copyright: `<p><a href="http://beian.miit.gov.cn/" >晋公网安备 14010602060567号 | 晋ICP备19001447号-1</a></p><p>Copyright © 2024 - 郭惟一 Built with Docusaurus.</p>`,
+      copyright: `<p><a href="http://beian.miit.gov.cn/" >晋公网安备 14010602060567号 | 晋ICP备19001447号-1</a></p><p>Copyright © 2025 - Guoweiyi Built with Docusaurus.</p>`,
     },
     prism: {
       theme: require('prism-react-renderer/themes/vsLight'),
@@ -211,8 +211,8 @@ const config = {
           defaultReadingTime({ content, options: { wordsPerMinute: 300 } }),
         feedOptions: {
           type: 'all',
-          title: '郭惟一',
-          copyright: `Copyright © 郭惟一 Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">晋公网安备 14010602060567号 | 晋ICP备19001447号-1</a></p><script>!function(p){"use strict";!function(t){var s=window,e=document,i=p,c="".concat("https:"===e.location.protocol?"https://":"http://","sdk.51.la/js-sdk-pro.min.js"),n=e.createElement("script"),r=e.getElementsByTagName("script")[0];n.type="text/javascript",n.setAttribute("charset","UTF-8"),n.async=!0,n.src=c,n.id="LA_COLLECT",i.d=n;var o=function(){s.LA.ids.push(i)};s.LA?s.LA.ids&&o():(s.LA=p,s.LA.ids=[],o()),r.parentNode.insertBefore(n,r)}()}({id:"JmbcAjeX5SSnvAbl",ck:"JmbcAjeX5SSnvAbl"});</script>`,
+          title: 'Guoweiyi',
+          copyright: `Copyright © Guoweiyi 2025 Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">晋公网安备 14010602060567号 | 晋ICP备19001447号-1</a></p><script>!function(p){"use strict";!function(t){var s=window,e=document,i=p,c="".concat("https:"===e.location.protocol?"https://":"http://","sdk.51.la/js-sdk-pro.min.js"),n=e.createElement("script"),r=e.getElementsByTagName("script")[0];n.type="text/javascript",n.setAttribute("charset","UTF-8"),n.async=!0,n.src=c,n.id="LA_COLLECT",i.d=n;var o=function(){s.LA.ids.push(i)};s.LA?s.LA.ids&&o():(s.LA=p,s.LA.ids=[],o()),r.parentNode.insertBefore(n,r)}()}({id:"JmbcAjeX5SSnvAbl",ck:"JmbcAjeX5SSnvAbl"});</script>`,
         },
       }
     ],
