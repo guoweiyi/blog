@@ -8,7 +8,7 @@ Guoweiyi blog  Built with Docusaurus.
 yarn start 
 ## 构建
 yarn build
-## 删除OSS blog路径文件
+## 删除OSS blog路径文件 添加统计代码
 ## upd
 ## CDN刷新一下网址
 ```
