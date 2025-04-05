@@ -17,7 +17,7 @@
     "description": "my name"
   },
   "homepage.hero.text": {
-    "message": "这里是我的生活动态/想法/技术项目的存档点",
+    "message": "这里是我的生活动态/想法/技术笔记文档/项目的存档点",
     "description": "hero text"
   },
   "homepage.hero.look":{
@@ -160,7 +160,7 @@
     "message": "推荐阅读"
   },
   "theme.blog.title.new":{
-    "message": "最新动态/想法"
+    "message": "最新生活动态"
   },
   "theme.blog.tagTitle": {
     "message": "{nPosts} 含有标签「{tagName}」",

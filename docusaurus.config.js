@@ -17,7 +17,7 @@ const config = {
     image: 'https://www.gwy.fun/zhan/logo.jpg',
     announcementBar: {
       id: "feature_release", // Any value that will identify this message.
-      content: `🌟好耶 新文章出来了惹‍_(:з」∠)_ <a href='/blog/yourname'>你的名字重映</a>`,
+      content: `🌟高考顺利`,// <a href='/blog/yourname'>你的名字重映</a>
       backgroundColor: "#fafbfc", // Defaults to `#fff`.
       textColor: "#091E42", // Defaults to `#000`.
     },
@@ -45,6 +45,11 @@ const config = {
           label: '项目/应用',
           position: 'right',
           to: 'project',
+        },
+        {
+          label: '技术笔记/文档',
+          position: 'right',
+          to: 'docs/skill',
         },
         {
           label: '友链',
