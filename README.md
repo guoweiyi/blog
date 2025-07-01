@@ -1,7 +1,10 @@
 <h2 align="center">
 Guoweiyi blog  Built with Docusaurus.
 </h2>
-# 本项目于2025/7/1 正式弃用 新博客使用 Mixspace+shiroi [请移步](https://gwy.fun)
+# 本项目于2025/7/1 正式弃用 新博客使用 Mixspace+shiroi 
+
+[请移步新站点](https://gwy.fun)
+
 # 发布规则
 
 ```
